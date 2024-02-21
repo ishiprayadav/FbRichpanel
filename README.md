@@ -15,27 +15,10 @@ This is a Proof of Concept (POC) application designed to provide a unified platf
 3. The application listens to messenger messages and organizes them into conversations.
 4. Conversations are displayed in a user-friendly interface, allowing agents to reply to messages efficiently.
 
-## Reference UI
+## Demo Video
 
-### Login and Register
-Clients use this screen to sign in or register their FB accounts.
+https://drive.google.com/file/d/1XIXpmuQflQ-Buq6rYZ5Hgl7Sg4YVaseA/view
 
-![Login and Register](path/to/login-register.png)
-
-### Connect Your FB Page
-Clients manage their FB page connections through this screen.
-
-![Connect Your FB Page](path/to/connect-page.png)
-
-### Delete/Disconnect Page
-Allows clients to disconnect their FB page from the application.
-
-![Delete/Disconnect Page](path/to/delete-disconnect-page.png)
-
-### Agent Screen
-Agents interact with conversations and reply to messages through this interface.
-
-![Agent Screen](path/to/agent-screen.png)
 
 
 ## Technologies Used
