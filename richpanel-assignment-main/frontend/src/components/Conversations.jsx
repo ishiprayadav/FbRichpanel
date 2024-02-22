@@ -14,7 +14,7 @@ export const Conversations = () => {
     },
     {
       id: 2,
-      participant: "Sonia",
+      participant: "Sonia Singh",
       timestamp: "2024-02-15 @ 11:21",
       lastMessage: "I am fine ",
       isCurrentUser: false,
@@ -28,14 +28,14 @@ export const Conversations = () => {
     },
     {
       id: 4,
-      participant: "Sonia",
+      participant: "Sonia Singh",
       timestamp: "2024-02-15 @ 16:21",
       lastMessage: "party ?",
       isCurrentUser: false,
     },
     {
       id: 5,
-      participant: "Sonia",
+      participant: "Sonia Singh",
       timestamp: "2024-02-15 @ 16:22",
       lastMessage: "hello, which party?",
       isCurrentUser: true,
@@ -46,7 +46,7 @@ export const Conversations = () => {
 
   return (
     <div className="h-full flex flex-col justify-between container mx-auto">
-      <h1 className="text-2xl font-semibold mb-4 text-black border-b-2">Simran</h1>
+      <h1 className="text-2xl font-semibold mb-4 text-black border-b-2">Sonia Singh</h1>
       <ul className="grow flex flex-col space-y-4 w-full ">
         {conversations.map((conversation) => (
           <ConversationItem key={conversation.id} conversation={conversation} />
