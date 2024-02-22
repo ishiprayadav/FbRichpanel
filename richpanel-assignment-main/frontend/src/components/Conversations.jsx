@@ -7,35 +7,35 @@ export const Conversations = () => {
   const conversations = [
     {
       id: 1,
-      participant: "Dummy User 1",
+      participant: "Akash",
       timestamp: "2024-02-15 @ 11:18",
       lastMessage: "Hey, how are you?",
       isCurrentUser: true,
     },
     {
       id: 2,
-      participant: "Dummy User 2",
+      participant: "Sonia",
       timestamp: "2024-02-15 @ 11:21",
       lastMessage: "I am fine ",
       isCurrentUser: false,
     },
     {
       id: 3,
-      participant: "Dummy User 2",
+      participant: "Akash",
       timestamp: "2024-02-15 @ 11:30",
       lastMessage: "Will you come to party ? ",
       isCurrentUser: true,
     },
     {
       id: 4,
-      participant: "Dummy User 1",
+      participant: "Sonia",
       timestamp: "2024-02-15 @ 16:21",
       lastMessage: "party ?",
       isCurrentUser: false,
     },
     {
       id: 5,
-      participant: "Dummy User 1",
+      participant: "Sonia",
       timestamp: "2024-02-15 @ 16:22",
       lastMessage: "hello, which party?",
       isCurrentUser: true,
@@ -46,7 +46,7 @@ export const Conversations = () => {
 
   return (
     <div className="h-full flex flex-col justify-between container mx-auto">
-      <h1 className="text-2xl font-semibold mb-4 text-black border-b-2">Bruce Banner</h1>
+      <h1 className="text-2xl font-semibold mb-4 text-black border-b-2">Simran</h1>
       <ul className="grow flex flex-col space-y-4 w-full ">
         {conversations.map((conversation) => (
           <ConversationItem key={conversation.id} conversation={conversation} />
