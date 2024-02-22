@@ -7,7 +7,7 @@ function MessagesBox() {
         <div className="flex items-center gap-1">
           <input type="checkbox" className="m-3 transform scale-150" />
           <div className="px-2">
-            <p className="text-lg">Dummy User</p>
+            <p className="text-lg">User</p>
             <p className="text-md">Facebook DM</p>
           </div>
         </div>
